@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import "../Styles/Header.css"
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
@@ -12,13 +13,11 @@ const Header = () => {
         <div className="header__name">Javier Zarate</div>
        </Link>
     
-  
-      <div className="header__nav">
-           
-          <Link to="/Contact">
-            <span className="header__contact">Contact</span>
-          </Link>
       
+      <div className="header__nav">
+        <Link to="/Contact">
+          <div className="header__contact">Contact</div>
+        </Link>  
       </div>
     </div>
   )
