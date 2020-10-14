@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Profile from './Components/Profile';
 
 function App() {
   return (
     <div className="app">
-      <h1>HEllow world</h1>
-   
+      <Profile/>
     </div>
   );
 }
