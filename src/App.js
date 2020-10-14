@@ -1,18 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className="app">
       <Router>
-        <Route>
-          <Home />
-        </Route>
-        <Contact />
+        <Switch>
+          <Route path='/Contact'>
+              <Header/>
+              <Contact/>
+          </Route>
+          
+            <Route path="/">
+              <Header />
+              <Home/>
+          </Route>
+          
+        </Switch>   
       </Router>
     </div>
   );
