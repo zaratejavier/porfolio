@@ -7,11 +7,11 @@ const Home = () => {
       {/* Image */}
       <h1>Javier Zarate</h1>
 
-      <div id="first" style={{backgroundColor:"red", padding:"400px"}}>First section</div>
+      <div id="first" style={{backgroundColor:"red", padding:"100px"}}>First section</div>
 
-      <div id="second" style={{backgroundColor:"blue", padding:"400px"}}>Second section</div>
+      <div id="second" style={{backgroundColor:"blue", padding:"100px"}}>Second section</div>
 
-      <div id="third" style={{backgroundColor:"green", padding:"400px"}}>Third section</div>
+      <div id="third" style={{backgroundColor:"green", padding:"100px"}}>Third section</div>
       
       {/* discription */}
     </section>
