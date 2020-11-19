@@ -1,5 +1,8 @@
 import React from "react"
 import "../Styles/Home.css"
+import Contact from "./Contact"
+import PersonalInfo from "./PersonalInfo"
+import Projects from "./Projects"
 
 const Home = () => {
   return (
@@ -7,11 +10,11 @@ const Home = () => {
       {/* Image */}
       <h1>Javier Zarate</h1>
 
-      <div id="first" style={{backgroundColor:"red", padding:"100px"}}>First section</div>
+      <div id="first" style={{backgroundColor:"red", padding:"100px"}}><PersonalInfo/></div>
 
-      <div id="second" style={{backgroundColor:"blue", padding:"100px"}}>Second section</div>
+      <div id="second" style={{backgroundColor:"blue", padding:"100px"}}><Projects/></div>
 
-      <div id="third" style={{backgroundColor:"green", padding:"100px"}}>Third section</div>
+      <div id="third" style={{backgroundColor:"green", padding:"100px"}}><Contact/></div>
       
       {/* discription */}
     </section>
