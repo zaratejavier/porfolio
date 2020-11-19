@@ -9,24 +9,8 @@ import Header from './Components/Header';
 function App() {
   return (
     <div className="app">
-      <Router>
-        <Switch>
-          <Route path='/Projects'>
-              <Header/>
-              <Projects/>
-          </Route>
-
-          <Route path='/Contact'>
-              <Header/>
-              <Contact/>
-          </Route>
-          
-          <Route path="/">
-            <Header />
-            <Home/>
-          </Route>
-        </Switch>   
-      </Router>
+      <Header />
+      <Home/>
     </div>
   );
 }

@@ -8,57 +8,30 @@ function Header() {
   return (
     <div className="header">
       
-      <Link to={"/"}>
-        <div className="header__logo">Javier Zarate </div>
-      </Link>
+        <div className="Header__name">
+          <a className="header__logo" href="#About">
+            <span>Javier Zarate</span>
+          </a>
+        </div>
       
       <div className="header__nav">
+        <div className="header__option">
+          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#About">About</a>
+        </div>
+
+        <div className="header__option">
+          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#Resume">Resume</a>
+        </div>
+
+        <div className="header__option">
+          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#Portfolio">Portfolio</a>
+        </div>
+
+
+        <div className="header__option">
+          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#Contact">Contact</a>
+        </div>    
         
-         <Link to={"/Contact"}>
-          <div
-            className="header__option">
-            <span className="header__optionLineTwo">Contact</span>
-          </div>
-        </Link> 
-
-        
-         <Link to={"/Projects"}>
-          <div
-            className="header__option">
-            <span className="header__optionLineTwo">Projects</span>
-          </div>
-        </Link> 
-
-        {/* <Link to={"#first"}>
-          <div
-            className="header__option">
-            <span className="header__optionLineTwo">first</span>
-          </div>
-        </Link>  */}
-
-        <div className="header__option">
-          {/* <span href="#third" className="header__optionLineTwo">third</span> */}
-          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#first">First</a>
-        </div>
-
-        {/* <Link to={"#second"}>
-          <div
-            className="header__option">
-            <span className="header__optionLineTwo">second</span>
-          </div>
-        </Link>  */}
-
-        <div className="header__option">
-          {/* <span href="#third" className="header__optionLineTwo">third</span> */}
-          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#second">Second</a>
-        </div>
-
-
-        <div className="header__option">
-          {/* <span href="#third" className="header__optionLineTwo">third</span> */}
-          <a className="header__optionLineTwo" style={{ textDecoration: 'none', color: 'white' }} href="#third">Third</a>
-        </div>
-                
       </div>
     </div>
   );
