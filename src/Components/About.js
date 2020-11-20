@@ -12,6 +12,7 @@ const About = () => {
           src={me}
         /> 
       </div>  
+        {/* <div className="about__description">Husband| Father | Full stack Web Developer</div> */}
     </div>
   )
 }
