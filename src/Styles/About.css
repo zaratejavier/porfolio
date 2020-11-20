@@ -1,0 +1,7 @@
+.about {
+  background-image: url('../images/mountains.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 75rem;
+  width: 100%;
+}
