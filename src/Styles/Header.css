@@ -1,4 +1,4 @@
-.header {
+/* .header {
   height: 100px;
   display: flex;
   align-items: center;
@@ -31,21 +31,17 @@
   font-weight: 800;
 }
 
-.header__optionBasket {
-  display: flex;
-  align-items: center;
-  color: white;
-}
 
 .header__basketCount {
   margin-left: 10px;
   margin-right: 10px;
+  
 }
 
 .header__nav {
   display: flex;
   justify-content: space-evenly;
-  float: right;
+
 }
 
 .header__option {
@@ -58,5 +54,50 @@
 
 a{
 text-decoration:none;
-float: right;
+} */
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.header{
+  position: sticky;
+  top: 0;
+  height: 100px;
+  background-color: black;
 }
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+} 
