@@ -4,4 +4,28 @@
   background-repeat: no-repeat;
   height: 75rem;
   width: 100%;
+  margin-top: -150px;
+}
+
+.about__section{
+  display: flex;
+  flex-direction: column;
+}
+
+.about__image{
+   border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 2px;
+  color: white  ;
+}
+
+.about__name{
+  color: whitesmoke;
+  font-size: 50px;
+  padding: 30px;
 }

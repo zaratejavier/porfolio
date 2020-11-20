@@ -11,9 +11,9 @@ const Home = () => {
       {/* Image */}
       <div id="About"><About/></div>
 
-      <div id="Resume" style={{ backgroundColor: "blue", padding: "100px" }}><Resume/></div>
+      <div id="Resume" ><Resume/></div>
 
-      <div id="Portfolio" style={{ backgroundColor: "green", padding: "100px" }}><Projects /></div>
+      <div id="Portfolio" style={{ backgroundColor: "green", padding: "50px" }}><Projects /></div>
 
       <div id="Contact" style={{ backgroundColor: "orange", padding: "100px" }}><Contact /></div>
       
