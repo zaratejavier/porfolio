@@ -58,12 +58,22 @@ text-decoration:none;
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+
 
 .header{
   position: sticky;
   top: 0;
   height: 60px;
   background-color: black;
+}
+
+.header__logo{
+/* font-family: 'Satisfy', cursive; */
+font-family: 'PT Sans', sans-serif;
+font-size: large;
 }
 
 ul.topnav {
@@ -84,6 +94,7 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
 }
 
 ul.topnav li a:hover:not(.active) {
