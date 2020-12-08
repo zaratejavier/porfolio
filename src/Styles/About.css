@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+
 .about {
   background-image: url('../images/mountains.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
-  height: 75rem;
+  height: 65rem;
   width: 100%;
   margin-top: 50px;
 }
@@ -30,10 +34,14 @@
   color: whitesmoke;
   font-size: 50px;
   padding: 30px;
+font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 .about__description{
-  font-size: 30px;
+  font-size: 15px;
   color: whitesmoke;
   margin-top: 55px;
+font-family: 'Nanum Gothic', sans-serif;
+
 }

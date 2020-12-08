@@ -11,7 +11,7 @@ const About = () => {
         <img className="about__image"
           src={me}
         /> 
-        <p className="about__description">Husband| Father | Software Developer</p>
+        <p className="about__description">Husband | Father | Software Developer</p>
       </div>  
     </div>
   )
