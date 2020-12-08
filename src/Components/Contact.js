@@ -1,10 +1,12 @@
 import React from "react"
+import "../Styles/Contact.css"
 
 const Contact = () => {
   return (
     <div className="contact">
-      <h1>Contact</h1>
-      <h1>holla</h1>
+      {/* <h3>Contact</h3> */}
+      <div>Shoot me an email or check out my online profiles</div>
+      <div>steve@stevejones.io</div>
     </div>
   )
 }
