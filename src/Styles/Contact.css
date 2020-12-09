@@ -1,4 +1,14 @@
 .contact{
   display: flex;
   flex-direction: column;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
 }
+
