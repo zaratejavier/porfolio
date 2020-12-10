@@ -12,27 +12,26 @@ const Contact = () => {
         <span>Shoot me an email or check out my online profiles</span>
         <span><a className="contact__email" href="mailto:zarate.javier.jz@gmai.com">zarate.javier.jz@gmail.com</a></span>
 
-      <a href="https://www.instagram.com/xavi_utes/" target="_blank"> 
-        <InstagramIcon />
+      <span className="contact__icons">
+        <a href="https://www.instagram.com/xavi_utes/" target="_blank"> 
+          <InstagramIcon />
+        </a>
 
-      </a>
+        <a href="https://github.com/zaratejavier" target="_blank"> 
+          <GitHubIcon />
+        </a>
 
+        <a href="https://www.linkedin.com/in/javier-zarate-b01a04112/" target="_blank"> 
+          <LinkedInIcon />
+        </a>
 
-      <a href="https://github.com/zaratejavier" target="_blank"> 
-        <GitHubIcon />
-      </a>
-
-      <a href="https://www.linkedin.com/in/javier-zarate-b01a04112/" target="_blank"> 
-        <LinkedInIcon />
-      </a>
-
-      <a href="https://twitter.com/Xavi_radical" target="_blank"> 
-        <TwitterIcon />
-      </a>
-
+        <a href="https://twitter.com/Xavi_radical" target="_blank"> 
+          <TwitterIcon />
+        </a>
+      </span>
       
       
-        <span>This website designed and developed by Javier Zarate View it on <a href="https://github.com/zaratejavier/porfolio" target="_blank">Github</a></span>
+        <span>This website designed and developed by Javier Zarate view it on <a href="https://github.com/zaratejavier/porfolio" target="_blank">Github</a></span>
         <span>© Javier Zarate 2020</span>
     </div>
 
